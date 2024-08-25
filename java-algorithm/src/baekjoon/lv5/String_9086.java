@@ -4,6 +4,8 @@ import java.io.*;
 
 public class String_9086 {
     public static void main(String[] args) {
+        // https://www.acmicpc.net/problem/9086
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
