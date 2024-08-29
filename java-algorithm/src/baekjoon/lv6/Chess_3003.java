@@ -1,4 +1,4 @@
-package baekjoon.vl6;
+package baekjoon.lv6;
 
 import java.io.*;
 import java.util.Arrays;
