@@ -2,11 +2,13 @@ package programmers.lv1;
 
 public class VideoPlayer_340213 {
     public static void main(String[] args) {
-        //        System.out.println(solution("07:22", 	"04:05", "00:15", "04:07", new String[]{"next"}));
-//        System.out.println(solution("30:00", 	"15:00", "15:10", "15:30", new String[]{"next","next"}));
+        // https://school.programmers.co.kr/learn/courses/30/lessons/340213
+
+        System.out.println(solution("07:22", 	"04:05", "00:15", "04:07", new String[]{"next"}));
+//      System.out.println(solution("30:00", 	"15:00", "15:10", "15:30", new String[]{"next","next"}));
         System.out.println(solution("10:55", 	"00:05", "00:15", "06:55", new String[]{"prev","next","next"}));
-//        System.out.println(solution("34:33", 	"09:50", "10:00", "13:00", new String[]{"next","next","next","prev"}));
-//        System.out.println(solution("30:00", 	"30:00", "00:00", "00:05", new String[]{"next","prev"}));
+//      System.out.println(solution("34:33", 	"09:50", "10:00", "13:00", new String[]{"next","next","next","prev"}));
+//      System.out.println(solution("30:00", 	"30:00", "00:00", "00:05", new String[]{"next","prev"}));
     }
 
     public static String solution(String video_len, String pos, String op_start, String op_end, String[] commands) {
