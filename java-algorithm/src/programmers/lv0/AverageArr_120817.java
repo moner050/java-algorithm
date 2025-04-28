@@ -10,5 +10,5 @@ public class AverageArr_120817 {
 
     public static double solution(int[] numbers) {
         return Arrays.stream(numbers).average().orElse(0);
-    `}
+    }
 }
